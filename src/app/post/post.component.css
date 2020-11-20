@@ -1,0 +1,28 @@
+.content {
+  background: #fafafa;
+  font-family: Arial, sans-serif;
+}
+
+.highlight {
+  color: rgb(228, 48, 204);
+}
+.highlight1 {
+  font-weight: bold;
+  color: royalblue;
+}
+.card {
+  padding: 40px;
+  background: #fff;
+  max-width: 1000px;
+  border-radius: 20px;
+  margin: 60px auto;
+}
+
+.shadow1 {
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 15px 40px rgba(166, 173, 201, 0.2);
+}
+
+.shadow2 {
+  box-shadow: 0 7px 30px -10px rgba(150, 170, 180, 0.5);
+}

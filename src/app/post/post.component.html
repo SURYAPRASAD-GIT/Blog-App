@@ -1,0 +1,23 @@
+<div class="content">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-8">
+        <div class="card shadow2">
+          <span class="highlight">
+            <p>{{post.username}}</p>
+        </span>
+        <h1 class="blog-title">{{post.title}}</h1>
+      
+        <p [innerHTML]="post.content"></p>
+        <hr>
+        <div>
+          <a type="button" href="/home"  class="read-more btn btn-default"><span class="highlight1">Back</span></a>
+        </div>
+      </div>
+      
+      </div>
+    </div>
+
+  </div>
+</div>
