@@ -10,8 +10,27 @@
 html {
   background-color: #fff;
   color: #555;
-  font-family: 'Lato', 'Arial', sans-serif;
+  font-family: "Lato", "Arial", sans-serif;
   font-weight: 400;
   font-size: 20px;
   text-rendering: optimizeLegibility;
+}
+/* The emerging W3C standard
+   that is currently Firefox-only */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: blue #fff;
+}
+
+/* Works on Chrome/Edge/Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+*::-webkit-scrollbar-track {
+  background: #fff;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: blue;
+  border-radius: 20px;
+  border: 3px solid #fff;
 }
