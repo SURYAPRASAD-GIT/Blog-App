@@ -37,7 +37,7 @@ import {AuthGuard} from './auth.guard';
     NgxWebstorageModule.forRoot(),
     RouterModule.forRoot([
       {path: '', component: HomeComponent},
-      {path: 'register  ', component: RegisterComponent},
+      {path: 'register', component: RegisterComponent},
       {path: 'post/:id', component: PostComponent},
       {path: 'login', component: LoginComponent},
       {path: 'register-success', component: RegisterSuccessComponent},

@@ -11,7 +11,7 @@ import {LocalStorageService} from 'ngx-webstorage';
   providedIn: 'root'
 })
 export class AuthService {
-  private url = 'http://localhost:8080/api/auth/';
+  private url = 'http://192.168.55.102:8080/api/auth/';
 
   constructor(private httpClient: HttpClient, private localStoraqeService: LocalStorageService) {
   }

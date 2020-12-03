@@ -12,12 +12,12 @@ export class HttpClientInterceptor implements HttpInterceptor {
   intercept(req: HttpRequest<any>,
             next: HttpHandler): Observable<HttpEvent<any>> {
 
-    const token = this.$localStorage.retrieve("authenticationToken");
+    const token = this.$localStorage.retrieve('authenticationToken');
     console.log('jwt token ' + token);
     if (token) {
       const cloned = req.clone({
-        headers: req.headers.set("Authorization",
-          "Bearer " + token)
+        headers: req.headers.set('Authorization',
+          'Bearer ' + token)
       });
 
       return next.handle(cloned);
